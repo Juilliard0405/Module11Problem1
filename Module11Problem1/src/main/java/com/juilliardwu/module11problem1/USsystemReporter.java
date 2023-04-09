@@ -11,6 +11,9 @@ package com.juilliardwu.module11problem1;
  */
 public class USsystemReporter {
     public int volts;
+    public USsystemReporter() {
+        this.volts = 120;
+    }
 
     public USsystemReporter(int volts) {
         this.volts = volts;
